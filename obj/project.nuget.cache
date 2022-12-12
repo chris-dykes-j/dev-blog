@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xt5IrOwi+sOXFuA49qfrT3+qHl4Hciae0a0g6Jc7DC0DI9wB5f8e6Oa4Cmvwk3Vdbp+Wq9UCKq8D6kzL8eEgNw==",
+  "success": true,
+  "projectFilePath": "/home/chris/RiderProjects/DevBlog/DevBlog/DevBlog.csproj",
+  "expectedPackageFiles": [
+    "/home/chris/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.11/microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
