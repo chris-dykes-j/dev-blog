@@ -16,7 +16,6 @@ public class BlogEntryController : Controller
     public IActionResult Index(int id)
     {
         var blogEntry = _blogRepository.GetBlogEntryById(id);
-        Console.WriteLine(blogEntry.Title);
         return View(blogEntry);
     }
 }

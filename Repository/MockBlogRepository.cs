@@ -11,6 +11,7 @@ public class MockBlogRepository : IBlogRepository
                 Id = 0,
                 Title = "Why PHP sucks",
                 Date = new DateTime(2022, 12, 16),
+                Description = "Why PHP is terrible and other mean things to say.",
                 Content = "Php is really bad because I personally don't like it."
             },
             new BlogEntry
@@ -18,7 +19,8 @@ public class MockBlogRepository : IBlogRepository
                 Id = 1,
                 Title = "JavaScript for Dummies",
                 Date = new DateTime(2022, 10, 28),
-                Content = "Why on earth are there two different types of null in JavaScript?!"
+                Description = "This won't help",
+                Content = "Why on earth are there two different types of null in JavaScript?!" 
             }
         };
 

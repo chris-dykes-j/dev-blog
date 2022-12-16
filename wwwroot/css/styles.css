@@ -70,9 +70,9 @@ html, body {
     transform: scale(0.75);
 }
 
-/* Everything else */
+/* Formatting */
 
-#intro {
+.intro {
     margin: auto;
     width: 90%;
     padding: 55px 0 55px 0;
@@ -80,7 +80,11 @@ html, body {
     font-size: 18px;
 }
 
-#content-container {
+.intro h1 {
+    padding: 10px 0 50px 0;
+}
+
+.content-container {
     background-color: #2E3440;
     width: 70%;
     margin: auto;

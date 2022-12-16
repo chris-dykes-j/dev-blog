@@ -3,11 +3,11 @@
 }
 @model IEnumerable<DevBlog.Models.BlogEntry>
 
-    <div id="intro">
+    <div class="intro">
     <p>Hello, and welcome to my dev blog! I make posts about programming, web development, software, and other topics I am learning.</p>
 </div>
 
-<div id="content-container">
+<div class="content-container">
     @foreach(var blogEntry in Model)
     {
         <div class="blog-post">

@@ -1,3 +1,16 @@
 @model DevBlog.Models.BlogEntry;
 
-<h2>@Model.Title</h2>
+<div class="intro">
+    <h1>
+        @Model.Title
+    </h1>
+    <p>
+        @Model.Description
+    </p>
+</div>
+
+<div class="content-container">
+    <p>
+        @Model.Content
+    </p>
+</div>
