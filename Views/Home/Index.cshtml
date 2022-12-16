@@ -1,27 +1,24 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home Page";   
 }
+@model IEnumerable<DevBlog.Models.BlogEntry>
 
-<div id="intro">
-    <p>Hello, and welcome to my dev blog! I make posts about software, programming, and topics I am learning.</p>
+    <div id="intro">
+    <p>Hello, and welcome to my dev blog! I make posts about programming, web development, software, and other topics I am learning.</p>
 </div>
 
 <div id="content-container">
-
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis congue erat, vel mattis lacus. Praesent sagittis ipsum libero, ut convallis neque imperdiet id. Cras sed lacus sit amet turpis dictum ultrices. Proin mollis cursus ligula, quis condimentum dui laoreet a. Integer eu eros velit. Quisque aliquam tellus ex. Proin luctus ligula tortor, ac condimentum lectus feugiat eu. Morbi fringilla nibh et tellus eleifend bibendum. Pellentesque eu urna vehicula, egestas lorem a, porttitor mauris. Aliquam facilisis neque eu varius laoreet. Sed iaculis facilisis justo, tempor vestibulum turpis congue id. Suspendisse risus ipsum, maximus at nunc in, feugiat mattis ex. Cras sit amet urna quis justo egestas aliquet. Cras porttitor ex mauris, sed sagittis lacus cursus a.
-</p>
-<p>
-Nunc in sapien vel ipsum blandit condimentum. Suspendisse molestie et nibh in placerat. Nunc pellentesque dapibus nibh quis volutpat. Suspendisse laoreet ante sed tincidunt maximus. Quisque sit amet dui nunc. Curabitur sem risus, suscipit et finibus sit amet, ornare at nisl. Pellentesque consequat accumsan nisi, iaculis tincidunt nibh rhoncus non. Donec mattis rutrum est in sagittis. Ut augue erat, pretium vitae dapibus non, aliquet eu tortor. Proin consectetur eros nec orci ultricies, non laoreet eros rhoncus. Aliquam erat volutpat. Donec venenatis massa laoreet lacus vulputate sagittis. Proin mollis vel diam eget dapibus. Mauris scelerisque elit dolor, eu condimentum velit facilisis interdum. Proin blandit pellentesque posuere. Duis auctor risus eget urna feugiat, ut hendrerit augue gravida.
-</p>
-<p>
-Aliquam convallis augue massa, vel volutpat ligula eleifend quis. Ut dapibus lectus a faucibus efficitur. Duis nulla erat, mollis eget posuere sit amet, aliquam ut erat. Ut vel ante vehicula, viverra mi elementum, semper lorem. Curabitur bibendum enim ut hendrerit lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lectus libero, volutpat vitae urna auctor, vulputate pharetra odio. Quisque lacus odio, mollis quis odio in, vehicula bibendum neque. Nunc et varius velit, at tristique nibh. Nullam nulla dolor, mattis eu viverra tempor, aliquam a mi. Aenean facilisis dignissim justo vitae dignissim. Phasellus auctor mauris id orci gravida, nec luctus nibh fringilla. Vivamus ut orci non velit egestas tempus. Aenean varius risus neque, eu vestibulum justo finibus a. Praesent placerat volutpat dolor eget iaculis.
-</p>
-<p>
-Integer vitae mattis orci. Nunc varius, orci ac lacinia aliquam, orci velit pellentesque lorem, vitae convallis dui metus in odio. Morbi sem ipsum, interdum vitae facilisis ac, posuere ut purus. Duis sodales lorem ipsum, fringilla tristique augue eleifend a. Nullam ultrices condimentum nisi, at porta nulla congue eu. Phasellus sagittis mattis ex vel dapibus. Mauris iaculis vulputate urna, eu ullamcorper lacus ornare ut. Duis non velit fermentum sapien lobortis consectetur. Nam congue blandit molestie. Pellentesque imperdiet libero magna, vel ultrices felis fringilla a. Vestibulum at ipsum vitae enim porttitor consequat a eu sem. Phasellus dapibus imperdiet turpis, sed rutrum nulla pretium ac. Vivamus vestibulum tristique magna quis blandit. Phasellus convallis, mauris at suscipit facilisis, quam nisi blandit metus, a eleifend risus ante feugiat ante. Curabitur egestas vel orci ac commodo.
-</p>
-<p>
-Integer interdum aliquet mollis. Nunc dignissim sapien mauris, eu pharetra tellus pharetra et. Suspendisse viverra condimentum diam, a hendrerit neque tempus sit amet. Pellentesque convallis tortor nisl, malesuada consectetur urna varius sit amet. Morbi aliquam ipsum faucibus auctor vestibulum. Sed ornare magna at eros mollis, eget imperdiet lorem aliquam. Cras quis risus ultrices, placerat velit sed, suscipit sem.
-</p>
-    
+    @foreach(var blogEntry in Model)
+    {
+        <div class="blog-post">
+            <a class="title" asp-controller="BlogEntry" asp-action="Index" asp-route-id="@blogEntry.Id">
+                @blogEntry.Title
+            </a>
+            <p>@blogEntry.Date</p>
+            <p>@blogEntry.Content</p>
+            <a class="blog-link" asp-controller="BlogEntry" asp-action="Index" asp-route-id="@blogEntry.Id">
+                Read more...
+            </a>
+        </div>
+    }
 </div>

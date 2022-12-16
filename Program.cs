@@ -1,6 +1,9 @@
+using DevBlog.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IBlogRepository, MockBlogRepository>();
 
 var app = builder.Build();
 
