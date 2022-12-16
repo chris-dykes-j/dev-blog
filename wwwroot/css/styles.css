@@ -55,18 +55,18 @@ html, body {
 }
 
 #banner-title {
-    margin: auto 0 auto 0;
+    margin: auto 0 auto auto;
     font-size: 65px;
 }
 
 #banner-image {
-    margin: auto 0 auto auto;
+    margin: auto auto auto 0;
     transform: scale(0.75);
 }
 
 #image-hover {
     position: absolute;
-    margin: auto 0 auto auto;
+    margin: auto auto auto 0;
     transform: scale(0.75);
 }
 
@@ -88,10 +88,6 @@ html, body {
     padding: 30px;
 }
 
-#content-container * {
-    background-color: #2E3440;
-}
-
 #copyleft {
     text-align: center;
     color: #D8DEE9;
@@ -100,12 +96,9 @@ html, body {
 
 /* Blog entry list */
 
-.blog-post {
-    padding: 20px 0 20px 0;
-}
-
 .blog-post * {
     padding: 5px;
+    align-content: flex-start;
 }
 
 .blog-post .title {
@@ -121,6 +114,7 @@ html, body {
     color: var(--miku);
     display: inline-block;
     text-decoration: none;
+    padding-bottom: 40px;
 }
 
 .blog-post a:hover {
