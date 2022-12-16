@@ -1,13 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DevBlog.Controllers;
 
-public class HomeController : Controller
+public class AboutController : Controller
 {
-    [Route("/")]
+    [Route("/about")]
     [HttpGet]
     public IActionResult Index()
     {
         return View();
-    } 
+    }
 }

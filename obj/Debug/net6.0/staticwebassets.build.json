@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WtTXJi/0Invg2ytsks36ZmKnMVyTHPvcyrSz6EOQe+o=",
+  "Hash": "SPBf7Cc5PWXA8ykD3QSHJ/wlJlF6YkOXSZ0YKtb7GRU=",
   "Source": "DevBlog",
   "BasePath": "_content/DevBlog",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "/home/chris/RiderProjects/DevBlog/DevBlog/obj/Debug/net6.0/scopedcss/bundle/DevBlog.styles.css",
-      "SourceId": "DevBlog",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/chris/RiderProjects/DevBlog/DevBlog/obj/Debug/net6.0/scopedcss/bundle/",
-      "BasePath": "_content/DevBlog",
-      "RelativePath": "DevBlog.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/chris/RiderProjects/DevBlog/DevBlog/obj/Debug/net6.0/scopedcss/bundle/DevBlog.styles.css"
-    },
-    {
-      "Identity": "/home/chris/RiderProjects/DevBlog/DevBlog/obj/Debug/net6.0/scopedcss/projectbundle/DevBlog.bundle.scp.css",
-      "SourceId": "DevBlog",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/chris/RiderProjects/DevBlog/DevBlog/obj/Debug/net6.0/scopedcss/projectbundle/",
-      "BasePath": "_content/DevBlog",
-      "RelativePath": "DevBlog.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/chris/RiderProjects/DevBlog/DevBlog/obj/Debug/net6.0/scopedcss/projectbundle/DevBlog.bundle.scp.css"
-    },
     {
       "Identity": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/css/styles.css",
       "SourceId": "DevBlog",
@@ -100,6 +66,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/header-img.png"
+    },
+    {
+      "Identity": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/images/logo-hover.png",
+      "SourceId": "DevBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/",
+      "BasePath": "_content/DevBlog",
+      "RelativePath": "images/logo-hover.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/logo-hover.png"
+    },
+    {
+      "Identity": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/images/logo.png",
+      "SourceId": "DevBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/",
+      "BasePath": "_content/DevBlog",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/logo.png"
+    },
+    {
+      "Identity": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/js/script.js",
+      "SourceId": "DevBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/",
+      "BasePath": "_content/DevBlog",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/script.js"
     }
   ]
 }

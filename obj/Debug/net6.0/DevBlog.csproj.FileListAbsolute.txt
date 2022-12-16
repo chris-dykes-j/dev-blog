@@ -17,9 +17,7 @@
 /home/chris/RiderProjects/DevBlog/DevBlog/obj/Debug/net6.0/DevBlog.RazorAssemblyInfo.cs
 /home/chris/RiderProjects/DevBlog/DevBlog/obj/Debug/net6.0/staticwebassets.build.json
 /home/chris/RiderProjects/DevBlog/DevBlog/obj/Debug/net6.0/staticwebassets.development.json
-/home/chris/RiderProjects/DevBlog/DevBlog/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /home/chris/RiderProjects/DevBlog/DevBlog/obj/Debug/net6.0/scopedcss/bundle/DevBlog.styles.css
-/home/chris/RiderProjects/DevBlog/DevBlog/obj/Debug/net6.0/scopedcss/projectbundle/DevBlog.bundle.scp.css
 /home/chris/RiderProjects/DevBlog/DevBlog/obj/Debug/net6.0/DevBlog.dll
 /home/chris/RiderProjects/DevBlog/DevBlog/obj/Debug/net6.0/ref/DevBlog.dll
 /home/chris/RiderProjects/DevBlog/DevBlog/obj/Debug/net6.0/DevBlog.pdb
