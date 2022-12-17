@@ -85,7 +85,7 @@ html, body {
 .intro {
     margin: auto;
     width: 90%;
-    padding: 55px 0;
+    padding: 4% 0 2% 0;
     text-align: center;
     font-size: larger;
 }
@@ -121,7 +121,7 @@ html, body {
     font-weight: bold;
 }
 
-.blog-post .blog-link {
+.blog-link {
     color: var(--miku);
     display: inline-block;
     text-decoration: none;
@@ -138,14 +138,18 @@ html, body {
 
 /* Entries */
 
-#entry-title {
-    padding: 10px 0 50px 0;
+#page-title {
+    padding: 10px 0 20px 0;
     color: var(--miku);
 }
 
-#entry-content {
-    margin: 40px auto;
-    width: 80%;
+.page-description {
+    padding-bottom: 10px;
+}
+
+#page-content {
+    margin: 2.5% auto;
+    width: 85%;
     justify-content: center;
     white-space: pre-line;
     font-size: large;

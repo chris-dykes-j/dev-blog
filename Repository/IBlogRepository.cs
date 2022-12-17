@@ -5,5 +5,5 @@ namespace DevBlog.Repository;
 public interface IBlogRepository
 {
     IEnumerable<BlogEntry> GetAllEntries();
-    BlogEntry GetBlogEntryById(int id); 
+    BlogEntry GetBlogEntry(int id); 
 }

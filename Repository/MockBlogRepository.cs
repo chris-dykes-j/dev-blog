@@ -55,7 +55,7 @@ public class MockBlogRepository : IBlogRepository
         return _entries.OrderByDescending(x => x.Date);
     }
 
-    public BlogEntry GetBlogEntryById(int id)
+    public BlogEntry GetBlogEntry(int id)
     {
         return _entries[id];
     }

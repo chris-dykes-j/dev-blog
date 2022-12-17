@@ -5,7 +5,7 @@ namespace DevBlog.Controllers;
 
 public class BlogEntryController : Controller
 {
-    private IBlogRepository _blogRepository;
+    private readonly IBlogRepository _blogRepository;
 
     public BlogEntryController(IBlogRepository blogRepository)
     {
@@ -13,9 +13,10 @@ public class BlogEntryController : Controller
     }
     
     [Route("/{id:int}")]
+    [HttpGet]
     public IActionResult Index(int id)
     {
-        var blogEntry = _blogRepository.GetBlogEntryById(id);
+        var blogEntry = _blogRepository.GetBlogEntry(id);
         return View(blogEntry);
     }
 }

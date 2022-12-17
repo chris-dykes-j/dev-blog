@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "wzQqpFy6Jfyb6mRDabXSuqNHna58hRrQPImUsUKFx/o=",
+  "Source": "DevBlog",
+  "BasePath": "_content/DevBlog",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DevBlog/wwwroot",
+      "Source": "DevBlog",
+      "ContentRoot": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/",
+      "BasePath": "_content/DevBlog",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/css/styles.css",
+      "SourceId": "DevBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/",
+      "BasePath": "_content/DevBlog",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    },
+    {
+      "Identity": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/favicon.ico",
+      "SourceId": "DevBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/",
+      "BasePath": "_content/DevBlog",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/images/logo.png",
+      "SourceId": "DevBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/",
+      "BasePath": "_content/DevBlog",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/logo.png"
+    },
+    {
+      "Identity": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/js/script.js",
+      "SourceId": "DevBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/",
+      "BasePath": "_content/DevBlog",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/script.js"
+    }
+  ]
+}
