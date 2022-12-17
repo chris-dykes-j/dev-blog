@@ -19,6 +19,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/chris/RiderProjects/DevBlog/DevBlog/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/chris/RiderProjects/DevBlog/DevBlog/Views/BlogEntry/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZ0VudHJ5L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

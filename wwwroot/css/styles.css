@@ -3,21 +3,17 @@
 body {
     --common-radius: 10px;
     --miku: #8FBCBB;
-    --frosty: #88C0D0;
     --text: #E5E9F0;
     --background: #242933;
     --container-colour: #2E3440;
-    --link-colour: #8FBCBB;
 }
 
 body.light-theme {
     --common-radius: 10px;
     --miku: #8FBCBB;
-    --frosty: #88C0D0;
     --text: #242933;
     --background: #E5E9F0;
     --container-colour: #ECEFF4;
-    --link-colour: #5E81AC;
 }
 
 * {
@@ -40,6 +36,9 @@ html, body {
     overflow: hidden;
     font-size: 20px;
     background-color: #242933;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 #menu li {
@@ -67,6 +66,7 @@ html, body {
     background-color: var(--miku);
     display: grid;
     grid-auto-flow: column;
+    padding-top: 50px;
 }
 
 #banner-title {
