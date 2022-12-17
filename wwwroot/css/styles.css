@@ -1,4 +1,4 @@
-/* Using Nord theme colours: https://www.nordtheme.com/ */
+/* Using Nord theme colours: https://www.nordtheme.com/ && Google fonts: https://fonts.googleapis.com */
 
 body {
     --common-radius: 10px;
@@ -25,7 +25,7 @@ body.light-theme {
 html, body {
     color: var(--text);
     background-color: var(--background);
-    font-family: "Roboto", sans-serif;
+    font-family: "Fira Code", sans-serif;
 }
 
 /* Menu */
@@ -39,6 +39,7 @@ html, body {
     position: fixed;
     width: 100%;
     z-index: 1;
+    font-family: "Play", sans-serif;
 }
 
 #menu li {
@@ -73,6 +74,7 @@ html, body {
     margin: auto 0 auto auto;
     font-size: 65px;
     color: #E5E9F0;
+    font-family: "Play", sans-serif;
 }
 
 #banner-image {
