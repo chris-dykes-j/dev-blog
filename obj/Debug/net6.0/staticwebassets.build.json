@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SPBf7Cc5PWXA8ykD3QSHJ/wlJlF6YkOXSZ0YKtb7GRU=",
+  "Hash": "wzQqpFy6Jfyb6mRDabXSuqNHna58hRrQPImUsUKFx/o=",
   "Source": "DevBlog",
   "BasePath": "_content/DevBlog",
   "Mode": "Default",
@@ -49,40 +49,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
-    },
-    {
-      "Identity": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/images/header-img.png",
-      "SourceId": "DevBlog",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/",
-      "BasePath": "_content/DevBlog",
-      "RelativePath": "images/header-img.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/header-img.png"
-    },
-    {
-      "Identity": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/images/logo-hover.png",
-      "SourceId": "DevBlog",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/",
-      "BasePath": "_content/DevBlog",
-      "RelativePath": "images/logo-hover.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/logo-hover.png"
     },
     {
       "Identity": "/home/chris/RiderProjects/DevBlog/DevBlog/wwwroot/images/logo.png",

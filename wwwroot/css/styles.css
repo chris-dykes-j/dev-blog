@@ -1,5 +1,25 @@
 /* Using Nord theme colours: https://www.nordtheme.com/ */
 
+body {
+    --common-radius: 10px;
+    --miku: #8FBCBB;
+    --frosty: #88C0D0;
+    --text: #E5E9F0;
+    --background: #242933;
+    --container-colour: #2E3440;
+    --link-colour: #8FBCBB;
+}
+
+body.light-theme {
+    --common-radius: 10px;
+    --miku: #8FBCBB;
+    --frosty: #88C0D0;
+    --text: #242933;
+    --background: #E5E9F0;
+    --container-colour: #ECEFF4;
+    --link-colour: #5E81AC;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,15 +27,9 @@
 }
 
 html, body {
-    color: #E5E9F0;
-    background-color: #242933;
+    color: var(--text);
+    background-color: var(--background);
     font-family: "Roboto", sans-serif;
-}
-
-:root {
-    --common-radius: 10px;
-    --miku: #8FBCBB;
-    --frosty: #88C0D0;
 }
 
 /* Menu */
@@ -25,6 +39,7 @@ html, body {
     margin: 0;
     overflow: hidden;
     font-size: 20px;
+    background-color: #242933;
 }
 
 #menu li {
@@ -57,15 +72,10 @@ html, body {
 #banner-title {
     margin: auto 0 auto auto;
     font-size: 65px;
+    color: #E5E9F0;
 }
 
 #banner-image {
-    margin: auto auto auto 0;
-    transform: scale(0.75);
-}
-
-#image-hover {
-    position: absolute;
     margin: auto auto auto 0;
     transform: scale(0.75);
 }
@@ -77,7 +87,7 @@ html, body {
     width: 90%;
     padding: 55px 0 55px 0;
     text-align: center;
-    font-size: 18px;
+    font-size: larger;
 }
 
 .intro h1 {
@@ -85,7 +95,7 @@ html, body {
 }
 
 .content-container {
-    background-color: #2E3440;
+    background-color: var(--container-colour);
     width: 70%;
     margin: auto;
     border-radius: var(--common-radius);
@@ -94,7 +104,7 @@ html, body {
 
 #copyleft {
     text-align: center;
-    color: #D8DEE9;
+    color: var(--text);
     padding: 40px;
 }
 
@@ -103,6 +113,7 @@ html, body {
 .blog-post * {
     padding: 5px;
     align-content: flex-start;
+    font-size: large;
 }
 
 .blog-post .title {
@@ -110,7 +121,7 @@ html, body {
     display: inline-block;
     text-decoration: none;
     width: fit-content;
-    font-size: larger;
+    font-size: x-large;
     font-weight: bold;
 }
 
@@ -119,8 +130,9 @@ html, body {
     display: inline-block;
     text-decoration: none;
     padding-bottom: 40px;
+    font-weight: bold;
 }
 
 .blog-post a:hover {
-    color: #D8DEE9;
+    color: var(--text);
 }
