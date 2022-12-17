@@ -1,7 +1,7 @@
 @model DevBlog.Models.BlogEntry;
 
 <div class="intro">
-    <h1>
+    <h1 id="entry-title">
         @Model.Title
     </h1>
     <p>
@@ -10,7 +10,5 @@
 </div>
 
 <div class="content-container">
-    <p>
-        @Model.Content
-    </p>
+    <p id="entry-content">@Html.Raw(Model.Content)</p>
 </div>

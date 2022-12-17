@@ -8,17 +8,18 @@
 </div>
 
 <div class="content-container">
-    @foreach(var blogEntry in Model)
+    @foreach (var blogEntry in Model)
     {
         <div class="blog-post">
             <a class="title" asp-controller="BlogEntry" asp-action="Index" asp-route-id="@blogEntry.Id">
                 @blogEntry.Title
             </a>
             <p>@blogEntry.Date</p>
-            <p>@blogEntry.Content</p>
+            <p>@blogEntry.Description</p>
             <a class="blog-link" asp-controller="BlogEntry" asp-action="Index" asp-route-id="@blogEntry.Id">
                 Read more...
             </a>
+            <div class="spacing"></div>
         </div>
     }
 </div>
