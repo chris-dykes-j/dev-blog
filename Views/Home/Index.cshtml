@@ -15,7 +15,7 @@
             <a class="title" asp-controller="BlogEntry" asp-action="Index" asp-route-id="@blogEntry.Id">
                 @blogEntry.Title
             </a>
-            <p>@blogEntry.Date</p>
+            <p>@blogEntry.Date.ToString("yyyy-MM-dd hh:mm tt")</p>
             <p>@blogEntry.Description</p>
             <a class="blog-link" asp-controller="BlogEntry" asp-action="Index" asp-route-id="@blogEntry.Id">
                 Read more...
