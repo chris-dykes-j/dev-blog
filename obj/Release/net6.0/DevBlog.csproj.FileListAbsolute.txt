@@ -37,11 +37,3 @@
 /home/chris/RiderProjects/DevBlog/DevBlog/bin/Release/net6.0/Npgsql.dll
 /home/chris/RiderProjects/DevBlog/DevBlog/bin/Release/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /home/chris/RiderProjects/DevBlog/DevBlog/obj/Release/net6.0/DevBlog.csproj.CopyComplete
-/home/chris/RiderProjects/DevBlog/DevBlog/bin/Release/net6.0/Humanizer.dll
-/home/chris/RiderProjects/DevBlog/DevBlog/bin/Release/net6.0/Microsoft.EntityFrameworkCore.Design.dll
-/home/chris/RiderProjects/DevBlog/DevBlog/bin/Release/net6.0/Microsoft.Extensions.DependencyModel.dll
-/home/chris/RiderProjects/DevBlog/DevBlog/bin/Release/net6.0/Mono.TextTemplating.dll
-/home/chris/RiderProjects/DevBlog/DevBlog/bin/Release/net6.0/System.CodeDom.dll
-/home/chris/RiderProjects/DevBlog/DevBlog/bin/Release/net6.0/System.Text.Encodings.Web.dll
-/home/chris/RiderProjects/DevBlog/DevBlog/bin/Release/net6.0/System.Text.Json.dll
-/home/chris/RiderProjects/DevBlog/DevBlog/bin/Release/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll

@@ -9,7 +9,7 @@ builder.Services.AddScoped<IBlogRepository, BlogRepository>();
 
 builder.Services.AddDbContext<BlogDbContext>(options =>
 {
-    options.UseNpgsql("ConnectionStrings:BlogEntryConnection");
+    options.UseNpgsql(builder.Configuration.GetConnectionString("BlogEntryConnection"));
 });
 
 var app = builder.Build();
