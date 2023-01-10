@@ -16,7 +16,7 @@ public class BlogRepository : IBlogRepository
     
     public IEnumerable<BlogEntry> GetAllEntries()
     {
-        return _context.BlogEntries.OrderBy(x => x.Date);
+        return _context.BlogEntries.OrderByDescending(x => x.Date);
     }
 
     public BlogEntry GetBlogEntry(int id)
