@@ -1,34 +1,54 @@
-using System.ComponentModel;
-using DevBlog.Context;
 using DevBlog.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace DevBlog.Repository;
 
 public class BlogRepository : IBlogRepository
 {
-    private readonly BlogDbContext _context;
-
-    public BlogRepository(BlogDbContext context)
-    {
-        _context = context ?? throw new ArgumentNullException(nameof(context));
-    }
-    
     public IEnumerable<BlogEntry> GetAllEntries()
     {
-        return _context.BlogEntries.OrderByDescending(x => x.Date);
+        var result = new List<BlogEntry>();
+        var entries = Directory.GetFiles("/run/media/chris/Extra/blog-entries");
+        foreach (var entry in entries)
+        {
+            var id = Path.GetFileName(entry)[..^4];
+            result.Add(GetBlogEntry(int.Parse(id)));
+        }
+        return result.OrderByDescending(x => x.Id);
     }
 
     public BlogEntry GetBlogEntry(int id)
     {
-        if (BlogEntryExists(id))
-            return _context.BlogEntries.FirstOrDefault(x => x.Id == id)!;
+        var file = File.ReadAllLines($"/run/media/chris/Extra/blog-entries/{id}.txt");
         
-        throw new ArgumentException();
+        return new BlogEntry
+        {
+            Id = id,
+            Title = file[0],
+            Description = file[1],
+            Date = GetBlogDate(file[2]),
+            Content = GetBlogContent(file)
+        };
+    }
+    
+    #region Helper Methods
+
+    private DateTime GetBlogDate(string date)
+    {
+        var year = int.Parse(date[6..10]);
+        var month = int.Parse(date[3..5]);
+        var day = int.Parse(date[..2]);
+        var hour = int.Parse(date[11..13]);
+        var minute = int.Parse(date[14..]);
+        return new DateTime(year, month, day, hour, minute, 0);
     }
 
-    private bool BlogEntryExists(int id)
+    private string GetBlogContent(string[] file)
     {
-        return _context.BlogEntries.Any(x => x.Id == id);
+        var content = "";
+        for (var i = 3; i < file.Length; i++)
+            content += file[i];
+        return content;
     }
+    
+    #endregion
 }
