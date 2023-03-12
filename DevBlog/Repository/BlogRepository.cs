@@ -46,7 +46,7 @@ public class BlogRepository : IBlogRepository
     {
         var content = "";
         for (var i = 3; i < file.Length; i++)
-            content += file[i];
+            content += file[i] + "\n";
         return content;
     }
     

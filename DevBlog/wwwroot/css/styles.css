@@ -152,9 +152,13 @@ html, body {
 #page-content {
     margin: 2.5% auto;
     width: 85%;
-    justify-content: center;
     white-space: pre-line;
     font-size: large;
+    line-height: 2;
+}
+
+#page-content a:visited {
+    color: var(--miku);
 }
 
 .entry-image {
